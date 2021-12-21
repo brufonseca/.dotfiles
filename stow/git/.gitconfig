@@ -1,6 +1,6 @@
 [user]
-	email = dmarques2@gmail.com
-	name = Diogo Marques
+	email = brunafonseca@gmail.com
+	name = Bruna Fonseca
 
 [alias]
 	l = log --relative-date --graph --abbrev-commit -10
