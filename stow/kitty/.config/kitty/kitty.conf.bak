@@ -1496,6 +1496,6 @@ map kitty_mod+left previous_window
 
 
 # BEGIN_KITTY_THEME
-# Nord
+# citylights
 include current-theme.conf
 # END_KITTY_THEME

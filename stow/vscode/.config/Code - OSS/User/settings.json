@@ -9,5 +9,15 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "editor.bracketPairColorization.enabled": true,
     "editor.minimap.enabled": false,
-    "security.workspace.trust.untrustedFiles": "open"
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/dist/css/"
+        }
+    ],
+    "redhat.telemetry.enabled": false,
+    "json.maxItemsComputed": 500000000
 }
