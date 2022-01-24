@@ -1,6 +1,6 @@
 #/bin/bash
 
-mkdir ~/.ssh
+#mkdir ~/.ssh
 
 mkdir -p ~/.config/kitty
 

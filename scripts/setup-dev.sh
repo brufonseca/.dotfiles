@@ -29,13 +29,13 @@ cd ~/dev/applications/tomcat
 
 TOMCAT_FILE='apache-tomcat-9.0.54'
 
-#wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.54/bin/"$TOMCAT_FILE".tar.gz
-#tar -xf "$TOMCAT_FILE".tar.gz
+wget https://archive.apache.org/dist/tomcat/tomcat-9/v9.0.54/bin/"$TOMCAT_FILE".tar.gz
+tar -xf "$TOMCAT_FILE".tar.gz
 
-#rm "$TOMCAT_FILE".tar.gz
+rm "$TOMCAT_FILE".tar.gz
 
-#cp -r ~/dev/applications/tomcat/"$TOMCAT_FILE"/* ~/dev/servers/aux/tomcat/
-#cp -r ~/dev/applications/tomcat/"$TOMCAT_FILE"/* ~/dev/servers/eclipse/tomcat/
+cp -r ~/dev/applications/tomcat/"$TOMCAT_FILE"/* ~/dev/servers/aux/tomcat/
+cp -r ~/dev/applications/tomcat/"$TOMCAT_FILE"/* ~/dev/servers/eclipse/tomcat/
 
 cd - > /dev/null
 
