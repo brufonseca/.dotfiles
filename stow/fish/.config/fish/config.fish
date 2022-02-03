@@ -168,8 +168,9 @@ alias eletrosul-vpn='sudo snx -s 177.10.114.1 -u cepel-soma'
 
 alias candiota-vpn='sudo snx -s 177.10.114.1 -u cepel-bruna'
 
+alias wise-cow="cowsay (fortune)"
 
-
+alias matrix cmatrix
 ## Run paleofetch if session is interactive
 #if status --is-interactive
 #   neofetch

@@ -19,5 +19,6 @@
         }
     ],
     "redhat.telemetry.enabled": false,
-    "json.maxItemsComputed": 500000000
+    "json.maxItemsComputed": 500000000,
+    "editor.linkedEditing": true
 }
