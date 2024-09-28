@@ -1,0 +1,33 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontWeight": "400",
+    "window.zoomLevel": 1,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.minimap.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "liveSassCompile.settings.formats": [
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/dist/css/"
+        }
+    ],
+    "redhat.telemetry.enabled": false,
+    "json.maxItemsComputed": 500000000,
+    "editor.linkedEditing": true,
+    "workbench.colorTheme": "Dracula Theme",
+    "window.customTitleBarVisibility": "auto",
+    "git.autofetch": true,
+    "gitlens.views.branches.branches.layout": "list",
+    "terminal.integrated.defaultProfile.linux": "fish",
+    "jupyter.kernels.trusted": [
+        ""
+    ],
+    "workbench.colorCustomizations": {},
+    "editor.fontFamily": "'FantasqueSansMono Nerd Font'",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.rebaseEditor.ordering": "asc"
+}
