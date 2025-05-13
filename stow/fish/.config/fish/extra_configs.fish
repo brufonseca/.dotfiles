@@ -1,0 +1,1 @@
+/home/bruna/dev/dev-kit/stow/fish/.config/fish/extra_configs.fish

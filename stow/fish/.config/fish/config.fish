@@ -95,10 +95,10 @@ end
 
 ## Useful aliases
 # Replace ls with exa
-alias ls='exa -al --color=always --group-directories-first --icons' # preferred listing
-alias la='exa -a --color=always --group-directories-first --icons'  # all files and dirs
-alias ll='exa -l --color=always --group-directories-first --icons'  # long format
-alias lt='exa -aT --color=always --group-directories-first --icons' # tree listing
+alias ls='exa -al --color=always --group-directories-first ' #--icons # preferred listing
+alias la='exa -a --color=always --group-directories-first '  # all files and dirs
+alias ll='exa -l --color=always --group-directories-first '  # long format
+alias lt='exa -aT --color=always --group-directories-first ' # tree listing
 alias l.="exa -a | egrep '^\.'"                                     # show only dotfiles
 
 # Replace some more things with better alternatives
@@ -156,8 +156,6 @@ alias stowt='stow -vt ~ '
 
 alias unstow='stow -vDt ~ '
 
-alias connect-home-server='ssh -i ~/.ssh/draf-server-home_key  draf@192.168.1.5'
-
 alias restart='~/.dotfiles/scripts/restart.sh'
 
 alias power-off='~/.dotfiles/scripts/power-off.sh'
@@ -165,3 +163,10 @@ alias power-off='~/.dotfiles/scripts/power-off.sh'
 if test -f ~/.config/fish/extra_configs.fish
   source ~/.config/fish/extra_configs.fish
 end
+
+# pnpm
+set -gx PNPM_HOME "/home/bruna/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end
