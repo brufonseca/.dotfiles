@@ -1,5 +1,4 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
     "editor.fontWeight": "400",
     "window.zoomLevel": 1,
     "editor.suggestSelection": "first",
@@ -18,7 +17,6 @@
     "redhat.telemetry.enabled": false,
     "json.maxItemsComputed": 500000000,
     "editor.linkedEditing": true,
-    "workbench.colorTheme": "Dracula Theme",
     "window.customTitleBarVisibility": "auto",
     "git.autofetch": true,
     "gitlens.views.branches.branches.layout": "list",
@@ -29,5 +27,24 @@
     "workbench.colorCustomizations": {},
     "editor.fontFamily": "'FantasqueSansMono Nerd Font'",
     "diffEditor.ignoreTrimWhitespace": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 180,
+    "prettier.tabWidth": 4,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.indentSize": "tabSize",
+    "editor.detectIndentation": false,
+    "explorer.confirmDelete": false,
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
     "gitlens.rebaseEditor.ordering": "asc"
 }

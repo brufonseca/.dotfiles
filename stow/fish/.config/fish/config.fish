@@ -42,9 +42,9 @@ end
 
 
 ## Starship prompt
-if status --is-interactive
-   source ("/usr/bin/starship" init fish --print-full-init | psub)
-end
+# if status --is-interactive
+#    source ("/usr/bin/starship" init fish --print-full-init | psub)
+# end
 
 ## Advanced command-not-found hook
 source /usr/share/doc/find-the-command/ftc.fish
@@ -110,13 +110,13 @@ end
 #end
 
 ## Useful aliases
-# Replace ls with exa
-alias ls='exa -al --color=always --group-directories-first --icons' # preferred listing
-alias la='exa -a --color=always --group-directories-first --icons'  # all files and dirs
-alias ll='exa -l --color=always --group-directories-first --icons'  # long format
-alias lt='exa -T --color=always --group-directories-first --icons' # tree listing
-alias lta='exa -aT --color=always --group-directories-first --icons' # tree listing
-alias l.="exa -a | egrep '^\.'"                                     # show only dotfiles
+# Replace ls with eza
+alias ls='eza -al --color=always --group-directories-first --icons' # preferred listing
+alias la='eza -a --color=always --group-directories-first --icons'  # all files and dirs
+alias ll='eza -l --color=always --group-directories-first --icons'  # long format
+alias lt='eza -T --color=always --group-directories-first --icons' # tree listing
+alias lta='eza -aT --color=always --group-directories-first --icons' # tree listing
+alias l.="eza -a | egrep '^\.'"                                     # show only dotfiles
 
 # Replace some more things with better alternatives
 alias cat='bat --style header --style rule --style snip --style changes --style header'
@@ -185,3 +185,5 @@ alias matrix cmatrix
 if test -f ~/.config/fish/extra_configs.fish
   source ~/.config/fish/extra_configs.fish
 end
+
+starship init fish | source
